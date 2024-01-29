@@ -55,12 +55,13 @@ namespace Automation_ML
 
 
             }
+        
+       }
 
-
-
-
+        public void CerrarVentana()
+        {
+            driver.Quit();
         }
-
 
 
 
